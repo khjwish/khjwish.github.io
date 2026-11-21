@@ -7,6 +7,22 @@
   <meta name="description" content="상호명 - 한 줄 소개 문구를 여기에 적어주세요.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <style>
+    /* 제목 서체: 페이퍼로지 (SIL OFL 1.1, fonts/OFL-Paperlogy.txt) */
+    @font-face {
+      font-family: "Paperlogy";
+      src: url("fonts/Paperlogy-6SemiBold.woff2") format("woff2");
+      font-weight: 600; font-display: swap;
+    }
+    @font-face {
+      font-family: "Paperlogy";
+      src: url("fonts/Paperlogy-8ExtraBold.woff2") format("woff2");
+      font-weight: 800; font-display: swap;
+    }
+    .logo, .nav ul, .eyebrow, .btn, .tag,
+    h1, h2, h3, .sec-head small {
+      font-family: "Paperlogy", "Pretendard", sans-serif;
+    }
+
     /* ===== 색상은 여기서 바꾸세요 ===== */
     :root {
       --point: #E85A8C;      /* 포인트 컬러 (핑크) */
